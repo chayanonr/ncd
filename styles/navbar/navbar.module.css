@@ -1,0 +1,232 @@
+.navBar {
+  background-color: #fff !important;
+  box-shadow: none;
+  border-bottom: 1px solid #ddd;
+  min-height: 72px !important;
+  /* White background, subtle border line */
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px !important;
+}
+
+.navBar > div {
+  min-height: 72px !important;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+ 
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.logo1 {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+}
+
+.logo2 {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.logo3 {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+
+.middleSection {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+ 
+  flex: 1;
+ 
+  justify-content: flex-end;
+ 
+  font-family: 'Roboto', sans-serif;
+  font-weight: 550;
+  font-size: 16px;
+  color: #667797;
+}
+
+
+.navItemWrapper {
+  position: relative;
+  padding: 8px 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.navItemWrapper.active .navicon {
+  color: #2b8c84;
+}
+
+
+
+.active::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(194.44deg,
+      #38b790 0%,
+      #39b09f 41.74%,
+      #3ba9ad 89.76%);
+  transition: all 0.3s ease;
+}
+
+
+@media (max-width: 600px) {
+  .active::after {
+    bottom: -4px;
+    height: 2px;
+  }
+}
+
+
+.navItemWrapper.active .navItem {
+  color: #2b8c84;
+ 
+}
+
+.navItem {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 100%;
+  text-decoration: none;
+}
+
+
+.navicon {
+  margin-right: 4px;
+  color: #667797;
+}
+
+.navicon:hover {
+  color: #2b8c84 ;
+}
+
+
+.navItem:hover {
+  color: #2b8c84;
+}
+
+.navItemWrapper:hover .navicon {
+  color: #2b8c84;
+}
+
+
+.usernameBtn {
+  margin-left: 16px;
+ 
+}
+
+
+.pillButton {
+  background-color: #eaf4f3 !important;
+  color: #000 !important;
+  border-radius: 9999px !important;
+  text-transform: none !important;
+ 
+  font-weight: 500 !important;
+  cursor: pointer !important;
+  min-width: 133px !important;
+  height: 44px !important;
+  padding: 0 1rem !important;
+}
+
+.pillButton:hover {
+  background-color: #c0dddb !important;
+}
+
+.pillButton.active {
+  background-color: #94c5c1 !important;
+}
+
+.optionUerBox {
+  margin-top: 10px;
+}
+
+.optionUerBox ul {
+  padding: 5px !important;
+
+}
+
+.optionUerBox ul li:hover {
+  background-color: #EBEBEB !important;
+  border-radius: 4px !important;
+
+}
+
+.optionUer {
+  width: 100% !important;
+  min-width: 133px !important;
+  gap: 10px !important;
+}
+
+.btnMenu {
+  display: none !important;
+}
+
+.optionUerBoxMb {
+  display: none !important;
+}
+
+@media (max-width: 1124px) { 
+  .userOptionBox {
+    display: none !important;
+  }
+
+  .btnMenu {
+    display: block !important;
+    margin-left: auto !important;
+    border: 1px solid #D4D1D3 !important;
+    border-radius: 8px !important;
+    color: #667797 !important;
+  }
+
+  .active::after {
+    display: none !important;
+  }
+
+  .optionUerBox li {
+    width: 100% !important;
+  }
+
+  .optionUerBox li > div {
+    width: 100% !important;
+  }
+
+  .optionUerBox li > div > button {
+    width: 100% !important;
+  }
+
+  .optionUerBox {
+    margin-top: 20px !important;
+  }
+
+  .optionUerBoxMb {
+    display: block !important;
+  }
+
+  .optionUer {
+    width: 100% !important;
+    min-width: 255px !important;
+    gap: 10px !important;
+  }
+}

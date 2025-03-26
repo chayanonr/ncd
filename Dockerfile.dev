@@ -1,0 +1,22 @@
+# Base image
+FROM node:18-alpine
+
+# Set working directory
+WORKDIR /app
+
+# Copy package.json and install dependencies
+COPY package.json package-lock.json ./
+RUN npm install
+
+# Copy the entire project
+COPY . .
+
+#RUN mv .env .env-bak
+RUN cp .env.dev .env
+
+# Build Next.js app
+RUN npm run build
+
+# Expose port and run the app
+EXPOSE 3000
+CMD ["npm", "start"]

@@ -1,0 +1,54 @@
+.btnInputSelect {
+    background-color: #FFFFFF !important;
+    width: 100% !important;
+    color: #000000 !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 100% !important;
+    letter-spacing: 0% !important;
+    border-radius: 8px !important;
+}
+
+.btnInputSelect .MuiPaper-root {}
+
+.customSelect {
+    height: 100% !important;
+}
+
+.customSelect:hover fieldset {
+    border: 0.5px solid #D4D1D3 !important;
+}
+
+.customSelect fieldset {
+    border: 0.5px solid #D4D1D3 !important;
+}
+
+.customSelect.open fieldset {
+    border: 0.5px solid #D4D1D3  !important;
+}
+  
+.btnInputSelect  div {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    border-radius: 8px !important;
+
+}
+
+.btnInputSelect > div > div {
+    padding: 0px;
+    display: flex !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+.btnInputSelect svg {
+    color: #A9A9AC;
+}
+
+.menuItem  {
+    background-color: #eaf4f3 !important;
+}
+
+.disabled {
+    background-color: #F3F3F3 !important;
+}

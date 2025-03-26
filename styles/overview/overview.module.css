@@ -1,0 +1,324 @@
+.main {
+  padding-left: 24px;
+  padding-right: 24px;
+  overflow: auto;
+  height: 100%;
+}
+
+.filterBar {
+  margin-right: 24px;
+}
+
+.filterBmiField {
+  width: 100% !important;
+  height: 44px !important;
+  background-color: white !important;
+  border-radius: 8px !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  display: flex;
+  font-size: 24px !important;
+}
+
+
+
+.filterDate button {
+  background-color: #fff !important;
+  border-radius: 8px !important;
+  font-weight: 400 !important;
+  text-transform: none !important;
+}
+
+.filterDate {
+  background-color: white !important;
+
+}
+
+.filterGender,
+.filterZone {
+  background-color: #fff;
+  border-radius: 8px;
+  height: 44px;
+}
+
+.extraSelect {
+  border-radius: 50px !important;
+  background-color: #fff !important;
+  display: flex;
+  align-content: flex-end;
+  border: 1px solid #e1f4f3;
+  min-width: 144px !important;
+  font-size: 14px !important;
+  font-weight: 550 !important;
+
+}
+
+.extraSelectGrid {
+  display: flex !important;
+  justify-content: flex-end !important;
+  margin-top: 16px;
+  border: none !important;
+
+}
+
+
+
+
+.mainContent {
+  margin-bottom: 100px !important;
+  width: 100%;
+
+
+}
+
+
+.mapCard {
+  height: 100% !important;
+  min-height: 700px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent !important;
+
+
+}
+
+
+.kpiRow {
+  height: 10% !important;
+}
+
+
+.kpiCardContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 16px;
+  width: 100%;
+  height: 100%;
+}
+
+
+.kpiTitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: #66768C;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+
+.kpiValue {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1E1E1E;
+  line-height: 1.2;
+}
+
+
+.icon-user {
+  font-size: 40px;
+
+  color: #2B8C84;
+  background-color: #D2EAE4;
+  border-radius: 50%;
+  padding: 8px;
+
+}
+
+
+.genderIcon.icon-male {
+  font-size: 28px;
+  color: #3071E9;
+  background-color: #E5EEFC;
+  border-radius: 50%;
+  padding: 6px;
+  margin-bottom: 4px;
+
+  display: inline-block;
+}
+
+.genderIcon.icon-female {
+  font-size: 28px;
+  color: #EA528B;
+  background-color: #FAD7E2;
+  border-radius: 50%;
+  padding: 6px;
+  margin-bottom: 4px;
+  display: inline-block;
+}
+
+
+.kpiCard {
+  height: 100% !important;
+  min-height: 120px;
+  width: 100% !important;
+  border-radius: 8px !important;
+  padding: 16px !important;
+  display: flex !important;
+  justify-content: center !important;
+  background-color: #fff !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  box-shadow: none !important;
+}
+
+.kpiCard2 {
+  height: 100% !important;
+  min-height: 120px;
+  width: 100% !important;
+  border-radius: 8px !important;
+  padding: 16px !important;
+  display: flex !important;
+  justify-content: center !important;
+  background-color: #fff !important;
+  flex-direction: row !important;
+  gap: 12px !important;
+  box-shadow: none !important;
+}
+
+
+.icon {
+  font-size: 65.33px;
+  display: inline-block;
+  color: #2B8C84;
+  background-color: #D2EAE4;
+  margin-bottom: 0;
+
+  margin-right: 8px;
+
+}
+
+
+.kpiCardCanvas {
+  text-align: center;
+}
+
+
+
+
+.chartCard {
+  min-height: 250px;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  max-height: 322px !important;
+  box-shadow: none !important;
+}
+
+.chartCard2 {
+  min-height: 300px;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  height: 100%;
+  box-shadow: none !important;
+  display: flex;
+  flex-direction: column;
+  max-height: 363px !important;
+}
+
+.charttitle1 {
+  font-weight: 500 !important;
+  font-size: 20px !important;
+}
+
+.charttitle1s {
+  display: inline-block;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50px !important;
+  background-color: #2CAB68 !important;
+  margin-right: 8px !important;
+}
+
+.charttitlebs {
+  display: inline-block;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50px !important;
+  background-color: #35D0DA !important;
+  margin-right: 8px !important;
+}
+
+.charttitles {
+  margin-left: 20% !important;
+}
+
+.charttitle {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.charttitle2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px !important;
+  padding-right: 15px !important
+}
+
+
+.chartspan {
+  display: flex;
+  gap: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.charttitle2s {
+  display: inline-block;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50px !important;
+  background-color: #9747FF !important;
+  margin-right: 8px !important;
+}
+
+.charttitle3s {
+  display: inline-block;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50px !important;
+  background-color: #3E80F9 !important;
+  margin-right: 8px !important;
+}
+
+.charttitle4s {
+  display: inline-block;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50px !important;
+  background-color: #FFC300 !important;
+  margin-right: 8px !important;
+}
+
+.filterfilter {
+  color: #668AC3 !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 100% !important;
+  letter-spacing: 0% !important;
+
+}
+
+.moreInfo {
+  height: 32px !important;
+  border-radius: 4px !important;
+  gap: 4px !important;
+  border-width: 1px !important;
+  padding: 8px !important;
+  border: 1px solid #59C4BC !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 100% !important;
+  letter-spacing: 0% !important;
+  color: #59C4BC !important;
+
+
+}

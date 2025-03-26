@@ -1,0 +1,70 @@
+.pageMainBox {
+    height: 100%;
+    overflow: auto;
+}
+
+.textSec1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.lineBox {
+    height: 35px;
+    width: 1px;
+    background-color: #D9D7D8;
+}
+
+.boxChart {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.itemMapTextChartBox {
+    padding-left: 0 !important;
+    padding-right: 5px !important;
+    padding-right: 0 !important;
+    gap: 8px;
+}
+
+.itemMapTextChartBoxTextTitle {
+    font-weight: 550;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #66768C;
+}
+
+.itemMapTextChart {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.textBoxFilterChart {
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.textBoxFilterChartReset {
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #C40505;
+    cursor: pointer;
+    border-bottom: 0.5px solid transparent;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.textBoxFilterChartReset:hover {
+    border-bottom: 0.5px solid #C40505;
+}

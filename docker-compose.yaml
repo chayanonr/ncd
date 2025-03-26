@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  nextjs:
+    container_name: ncd-frontend
+    build:
+      context: .
+      dockerfile: ${DOCKERFILE}
+    ports:
+      - "3000:3000"

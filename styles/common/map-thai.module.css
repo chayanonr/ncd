@@ -1,0 +1,36 @@
+.mtBoxBgUnderLine {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.mtBgUnderLine {
+    background: linear-gradient(90deg, #FFFFFF 0%, #3C8B32 34%, #FE662B 61.5%, #C40505 100%);
+}
+
+.mtBoxZoom {
+    width: 34px;
+    min-height: 62px;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px 0px #00000033;
+    background-color: #FFFFFF;
+    font-size: 10px;
+    padding: 0px 3px !important;
+    padding-top: 3px !important;
+    overflow: hidden;
+}
+
+.buttonMap {
+    width: 100% !important;
+    height: 31px !important;
+    display: block !important;
+    padding: 0px !important;
+    min-width: 0px !important;
+    border-radius: 0px !important;
+}
+
+.buttonMapBorderBottom {
+    border-bottom: 2px solid #E6E6E6 !important;
+}
